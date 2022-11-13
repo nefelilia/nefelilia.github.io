@@ -9,7 +9,7 @@ p {
 	font size: landscape;
 }
 ol li {
-		color: lightblue;
+		color: black;
 
 }
 p {
@@ -20,10 +20,24 @@ div {
 }
 .ble {
 	 font-weight: bold;
-}
-.ble {
-	color: purple;
+	color: black;
+	border-width: thick;
+	border-color: lightblue;
+	border-image-slice: inherit;
 }
 .roz {
-	border-width: medium;
+     border-width: thick;
+	border-style: solid;
+	border-color: lightblue;
+	border-image-slice: inherit;
+}
+body {
+	background: light rosybrown;
+}
+.card {
+	margin-top: 50;
+	margin-bottom: 50;
+	border-color: light rosybrown;
+	margin-left: -190;
+	background-color: light rosybrown;
 }
